@@ -84,11 +84,9 @@ header img {
 }
 
 .pro {
-
     box-sizing: border-box;
     height: 60%;
     text-decoration: underline ;
-   
 }
 
 #projects h3 img a {
@@ -103,6 +101,8 @@ header img {
 .more {
     display: flex;
     justify-content: space-between;
+    border: 100%;
+    padding: 20px 15px 20px 15px;
 }
 
 #contact {
