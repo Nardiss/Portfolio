@@ -18,8 +18,7 @@ contact me.
 * css
 
 ## Picture
-
-![Screenshot];(.)
+![Screenshot](/assets/screenshot.png?)
 
 # Link
 https://nardiss.github.io/Portfolio/
