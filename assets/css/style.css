@@ -68,12 +68,11 @@ header nav ul li a {
 /*from run buddy hero/hero-cta flex row */
 .container {
     color: rgb(144, 113, 70);
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
-    align-items: flex-start;
+    flex-wrap: wrap;  
     font-weight: lighter;
     background-color: antiquewhite; 
     border: 5px solid rgb(244, 231, 231);
@@ -83,12 +82,13 @@ header nav ul li a {
 /*used from run-buddy hero form */
 .container img {
     border: solid 3px rgb(62, 16, 16);
-    width: 250px ;
+    width: 20%;
     margin-right: 25px;
     border-radius: 55px;
     height: 300px;   
     position: relative ;
     top: 90px;
+   
 }
 /* meet me Paragraph */
 .flex-row p {
@@ -99,8 +99,7 @@ header nav ul li a {
     font-size: 18px;
     /* line-height: 1.2;   */
     float: right;
-    position: relative;
-    top: 0;
+    
   
 }
 
@@ -120,11 +119,13 @@ header nav ul li a {
 .pro {
     font-weight: bold;
     background-color: antiquewhite;
-    padding: 10px 15%;
     display: flex;
     margin-top: 70px;
     flex-wrap: wrap;
     color: rgb(144, 113, 70); 
+    padding: 30px 20%;
+    align-items: flex-start;
+    padding-right: 61px;
 }
 
 #projects  h3  {
@@ -134,13 +135,26 @@ header nav ul li a {
     color: rgb(144, 113, 70);
 }
 
+#projects p{
+
+    font-style: italic;
+    font-size: 35px;
+    color: rgba(221, 198, 134, 0.59);
+    margin-right: 250px;
+    float: center;
+    position: absolute;
+    top:650px; 
+    width:fit-content;
+
+}
+
 #projects img {
     display: flex;
 }
 
 #first img{
     height: 300px;
-    width: 100%;
+    width:1000px;
     background-size: contain;
     padding-right: 20px;
     margin-top: 10px;
@@ -150,18 +164,23 @@ header nav ul li a {
 
 #second img{
     height: 250px;
-    width: 100%;
+    width:500px;
     background-size: contain;
     margin-top: 10px;
     font-size: 40px;
+    padding-right: 20px;
+    margin-top: 10px;
 
 }
 
 .more img{
     height: 250px;
-    width: 100%;
-    background-size: cover;
+    width: 500px;
+    background-size: contain;
     margin-top: 10px;
+    padding-right: 20px;
+    margin-top: 10px;
+    
 }
 
 /*footer style starts here*/
