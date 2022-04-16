@@ -128,7 +128,7 @@ header nav ul li a {
     padding-right: 61px;
 }
 
-#projects  h3  {
+#pro  h3  {
     border: 15%;
     display: flex;
     background-color: antiquewhite;
@@ -139,11 +139,9 @@ header nav ul li a {
 
     font-style: italic;
     font-size: 35px;
-    color: rgba(221, 198, 134, 0.59);
-    margin-right: 250px;
-    float: center;
-    position: absolute;
-    top:650px; 
+    color: rgba(228, 178, 134, 0.911);
+    margin-right:500px;
+    display: inline-flex;
     width:fit-content;
 
 }
