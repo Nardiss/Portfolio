@@ -56,16 +56,19 @@ header nav ul li a {
     font-size: 22px;
     font-size: 1.55vw;
     text-shadow: 0 0 10px #faebd7cc;
-  }
+}
 
-  header nav ul li a:hover {
+header nav ul li a:hover {
     background: #faebd7cc;
     color: #ab7936 ;
     border: 15px;
     text-shadow: none;
-  }
+}
 
 /*from run buddy hero/hero-cta flex row */
+.name {
+    padding: 0 70px 0 340px;
+}
 .container {
     color: rgb(144, 113, 70);
     background-size: contain;
@@ -76,7 +79,7 @@ header nav ul li a {
     font-weight: lighter;
     background-color: antiquewhite; 
     border: 5px solid rgb(244, 231, 231);
-     
+    width: auto;   
 }
 
 /*used from run-buddy hero form */
@@ -88,19 +91,20 @@ header nav ul li a {
     height: 300px;   
     position: relative ;
     top: 90px;
+
    
 }
 /* meet me Paragraph */
 .flex-row p {
-    width: 60%;
     text-align: justify;
-    margin-right: 25px;
+    margin-right: 50px;
     color: #ab7936;
     font-size: 18px;
     /* line-height: 1.2;   */
     float: right;
-    
-  
+    /* display: flex;  */
+    top: 0;
+    padding: 5px 70px 0 340px;
 }
 
 .container h2 {
@@ -111,7 +115,8 @@ header nav ul li a {
     float: right;
     position: absolute;
     top: 120px; 
-    
+    padding: 10px;
+    min-width: 100px;
 }
 
 /*end of container design*/
@@ -181,59 +186,49 @@ header nav ul li a {
     
 }
 
+.three img {
+    height: 250px;
+    width: 800px;
+    background-size: contain;
+    margin-top: 10px;
+    padding-right: 20px;
+    margin-top: 10px;  
+}
+
 /*footer style starts here*/
 #contacts {
     background-color: antiquewhite;
     width: fit-content;  
     color: rgb(144, 113, 70);
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.list {
+    align-items: center;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
 }
 
 footer {
     background: antiquewhite ;
     width: 100%;
     padding: 40px 35px;
-    flex-wrap: wrap;   
-}
-
-.total {
-    line-height: 1.5;
-    display: inline-flex;
-    justify-content: center;
-}
-
-#location {
-    color: #ab7936;
-    font-size: 5px;
-}
-
-.total iframe {
-    height: 20px;
+    flex-wrap: wrap; 
+    display: flex;  
 }
 
 
-@media screen and (max-width: 768px) {
-    section {
-      width: 100%;
-    
-    }
-    .works h4 {
-       font-size: 20px;
-    }
-    .works2 h4 {
-        font-size: 20px;
-        color: yellow;
-     }
-     .works3 h4 {
-        font-size: 20px;
-     }
-}
-@media screen and (max-width: 575px) {
-    header nav ul li{
-        display:flex;
-        flex-direction: column;
-    }
-    .my-work{
-        display: flex;
-        height: 50%;
-    }
-}
+
+
+
+
